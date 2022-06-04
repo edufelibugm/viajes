@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-size: 16px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+body a, body p, body h1, body h2, body h3, body h4, body h5{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gentium Plus', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+/* HEADER */
+
+    /* GENERAL */
+.header {
+    height: 500px;
+    margin: 50px;
+    background: url(./img/img-1.jpeg) center;
+    background-size: cover;
+    border-radius: 15px;
+}
+    /* NAVEGATION */
+nav {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    height: 60px;
+    padding: 20px 0px;
+    cursor: hand;
+}
+
+.navegation div {
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    cursor: hand;
+}
+
+.navegation div a {
+    margin: 8px;
+    padding: 3px;
+}
+
+.icon-map a{
+    margin: 50px;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+
+    /* TEXT */
+.header-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 75px;
+}
+
+.header-content p {
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+/* TRAVELS */
+
+    /* TEXT */
+.travels-text{
+    text-align: center;
+    justify-content: center;
+    padding: 50px 30%;
+}
+
+.travels-text p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+    /* PUBLICATIONS */
+.publications {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 10%;
+    margin: 80px;
+}
+
+.P1, .P2, .P3, .P4, .P5, .P6 {
+    height: 480px;
+    width: 1fr;
+    background: gray;
+    text-align: center;
+    border-radius: 15px;
+}   
+
+.P1 h4, .P2 h4, .P3 h4,.P4 h4, .P5 h4, .P6 h4 {
+    padding-top: 100%;
+}
+
+.P1 p, .P2 p, .P3 p, .P4 p, .P5 p, .P6 p {
+    padding: 10px 15px 10px 15px;
+    font-weight: 300;
+}
+
+.P1 {
+    background: url(./img/carretera.jpeg);
+    background-size: cover;
+}
+
+.P1:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.P2 {
+    background: url(./img/mochila.jpeg);
+    background-size: cover;
+}
+
+.P2:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.P3 {
+    background: url(./img/montañas.jpeg);
+    background-size: cover;
+}
+
+.P3:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.P4 {
+    background: url(./img/montañista.jpeg);
+    background-size: cover;
+}
+
+.P4:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.P5 {
+    background: url(./img/escaladora.jpeg);
+    background-size: cover;
+}
+
+.P5:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.P6 {
+    background: url(./img/lago.jpeg);
+    background-size: cover;
+}
+
+.P6:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+    /* BUTTON */
+.see-more {
+    text-align: center;
+}
+
+.see-more a {
+    color: #48b3da;
+}
+
+.see-more a:hover {
+    color: #17678f;
+    transition: 0.3s;
+}
+
+/* THE JOURNAL */
+
+    /* TEXT */
+.journal-text{
+    text-align: center;
+    justify-content: center;
+    padding: 50px 30%;
+}
+
+.journal-text h3 {
+    margin-top: 80px;
+}
+
+.journal-text p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+    /* POSTS */
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.posts img {
+    border-radius: 15px;
+    width: 480px;
+    height: 280px;
+}
+
+.post1, .post2 {
+    margin: 10%;
+}
+
+.posts p, .posts h3 {
+    margin-top: 10px;
+}
+
+.posts p {
+    font-weight: 200;
+}
+.posts a:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+/* BANNER */
+
+.banner {
+    margin: 0px 50px;
+    margin-top: 40px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    background: url(./img/banner.jpeg) center;
+    background-size: cover;
+    border-radius: 15px;
+}
+/* FOTTER */
+
+footer .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 200px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+/* MEDIAQUERY */
+@media (max-width: 1040px) {
+    
+    /* PUBLICATIONS */
+    .publications {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 10%;
+        margin: 80px;
+    }
+
+    /* POSTS */
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 620px) {
+    
+    /* PUBLICATIONS */
+    .publications {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px 10%;
+        margin: 80px;
+    }
+
+    /* POSTS */
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .posts img {
+        border-radius: 15px;
+        width: 400px;
+        height: 190px;
+    }
+    
+}
